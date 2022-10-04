@@ -16,11 +16,11 @@ var relativeY;
 var angle = 0;
 
 let playerText = new Image();
-playerText.src = 'file:///C:/Users/fran.milisavljevic/Desktop/space%20invader/Textures/player2.png';
+playerText.src = 'https://github.com/Frkisocom/Space-Invader/blob/main/space%20invader/Textures/player2.png?raw=true';
 let enemyText = new Image();
-enemyText.src = 'file:///C:/Users/fran.milisavljevic/Desktop/space%20invader/Textures/enemy.png';
+enemyText.src = 'https://github.com/Frkisocom/Space-Invader/blob/main/space%20invader/Textures/enemy.png?raw=true';
 let bulletText = new Image();
-bulletText.src = 'file:///C:/Users/fran.milisavljevic/Desktop/space%20invader/Textures/bullet.png';
+bulletText.src = 'https://github.com/Frkisocom/Space-Invader/blob/main/space%20invader/Textures/bullet.png?raw=true"';
 
 function drawScore(){
     ctx.fillStyle="#FFFFFF"
